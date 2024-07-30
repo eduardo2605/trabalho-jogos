@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+#intro-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nav1{
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid white;
+}
+.titulo{
+    margin-bottom: 20px;
+}
+.aba{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px  white
+}
+a:hover{
+    border-color: blueviolet;
+    box-shadow:3px 3px 3px  blueviolet;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-padrao{
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.space{
+    display: flex;
+    border: 3px solid white;
+    
+}
