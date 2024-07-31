@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-size: 100%;
+    background-image: url(img/background.jpeg);
+}
+
+#foto {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px black;
+}
+
+.divmae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 5%;
+    width: 500px;
+    height: 600px;
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+}
+
+.list1 {
+    display: flex;
+    gap: 10px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes1 {
+    width: 40px;
+}
+
+.icones {
+    display: flex;
+    gap: 50px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+button {
+    text-decoration: none;
+    background-color: black;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 3px blueviolet;
+}
+
+button:hover {
+    background-color: blueviolet;
+    border: 3px solid blueviolet;
+}
