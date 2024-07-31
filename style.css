@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-*{
+
+* {
     font-family: "Pixelify Sans", sans-serif;
     padding: 0;
     margin: 0;
-
     color: aliceblue;
 }
-#intro-pag{
+
+img {
+    width: 400px;
+}
+
+body {
+    background-image: linear-gradient(black, blueviolet);
+}
+
+#intro-pag {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,51 +23,64 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-.nav1{
+
+.nav1 {
     padding: 20px;
     margin-top: 20px;
-    border: 3px solid white;
+    margin-bottom: 30px;
 }
-.titulo{
-    margin-bottom: 20px;
-}
-.aba{
+
+.aba {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-a{
-    transition: ease 0,3s;
+
+a {
     text-decoration: none;
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px  white
+    box-shadow: 3px 3px 3px white;
 }
-a:hover{
+
+a:hover {
     border-color: blueviolet;
-    box-shadow:3px 3px 3px  blueviolet;
+    box-shadow: 3px 3px 3px blueviolet;
 }
-.titulo{
+
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
-.conteudo-padrao{
-    display: flex   ;
+
+.geralzao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.geral {
+    width: 1000px;
+    display: flex;
+    border: 7px solid white;
+    border-radius: 20px;
+    gap: 100px;
+    box-shadow: 7px 7px 7px black;
+    padding: 4px;
+}
+
+.conteudo-padrao {
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     margin-left: 10%;
 }
-.space{
-    display: flex;
-    border: 3px solid white;
-    
-}
-body{
-    background-image: linear-gradient(black,blueviolet);
-}   
