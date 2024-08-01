@@ -7,6 +7,14 @@
     color: white;
 }
 
+li {
+    list-style: none;
+    padding: 7px;
+    border-bottom: 1px solid white;
+}
+
+
+
 body {
     background-size: 100%;
     background-image: url(img/background.jpeg);
@@ -18,10 +26,17 @@ body {
     box-shadow: 6px 6px 6px black;
 }
 
+.divmae1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .divmae {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .principal {
@@ -42,13 +57,22 @@ body {
     backdrop-filter: blur(10px);
 }
 
-li {
-    list-style: none;
-    padding: 7px;
-}
-
 .list1 {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -69,6 +93,14 @@ li {
     gap: 50px;
 }
 
+img {
+    transition: 0.5s all;
+}
+
+img:hover {
+    width: 60px;
+}
+
 .botao {
     display: flex;
     justify-content: center;
@@ -83,9 +115,11 @@ button {
     border-radius: 10px;
     padding: 15px;
     box-shadow: 3px 3px 3px blueviolet;
+    transition: 0.5s ease;
 }
 
 button:hover {
     background-color: blueviolet;
     border: 3px solid blueviolet;
+    padding: 20px;
 }
